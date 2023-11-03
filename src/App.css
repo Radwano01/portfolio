@@ -1,0 +1,35 @@
+.App.light{
+    background-color: white;
+    color: rgb(31, 31, 31);
+    transition: 300ms;
+}
+
+.App.light a{
+    background-color: white;
+    color: rgb(31, 31, 31);
+    transition: 300ms;
+}
+
+.App.dark{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    transition: 300ms;
+}
+
+.App.dark a{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    transition: 300ms;
+}
+
+.App.dark .button-mode{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    transition: 300ms;
+}
+
+.App.light .button-mode{
+    background-color: white;
+    color: rgb(31, 31, 31);
+    transition: 300ms;
+}

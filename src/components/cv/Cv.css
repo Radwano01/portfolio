@@ -1,0 +1,122 @@
+.cv {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cv h3{
+    padding: 10px;
+}
+
+.cv img {
+    height: 450px;
+    width: 400px;
+    padding: 5px;
+}
+
+.cv-img img{
+    width: 600px;
+    height: 700px;
+    border-radius: 2%;
+}
+
+.download-button{
+    padding: 7px 40px;
+    background-color: rgb(126, 126, 126);
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+
+.certificates img{
+    height: 370px;
+    width: 500px;
+}
+
+.certificate-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+
+.certificate-section h4 {
+    padding:5px 20px;
+}
+
+.certificate-section h5 {
+    padding:5px 20px;
+}
+
+.certificate-section h5 a{
+    color: blue;
+    border-bottom: 1px solid blue;
+}
+
+@media (min-width: 320px) and (max-width:480px){
+    .cv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cv-img img{
+        display: none;
+    }
+    .certificate-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .certificate-section img {
+        width: 345px;
+        height: 300px;
+    }
+}
+
+@media (min-width:481px) and (max-width: 758px){
+    .cv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .cv-img img{
+        display: none;
+    }
+    .certificate-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+    .certificate-section img {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+    .cv {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .certificate-section{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: auto;
+    }
+
+    .certificate-section .cert-img {
+        width: 600px;
+        height: 500px;
+    }
+}
