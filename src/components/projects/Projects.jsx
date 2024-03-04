@@ -33,19 +33,14 @@ const Projects = () => {
       <div className="card-of-projects smooth-projects">
         <div className="project-one">
           <a href="https://clone-ddcf5.web.app" target='_blank' rel="noreferrer"><img src={amazonprojectimg} alt="projectimg" /></a>
-          <h5>1- Amazon-Clone Website Full-Stack</h5><br />
-          <h5>2- You can Sign in & Sign up</h5><br />
-          <h5>3- You can Add products to Basket</h5><br />
-          <h5>4- You can pay the Products You Added to Basket</h5><br />
-          <h5>5- You can check the Bought Products to Orders <br /> and check the Date...</h5><br />
-          <h5>6- You can check The Project code on GitHub <a href="https://github.com/Radwano01/amazon-clone" style={{color: " blue", borderBottom: "1px solid blue"}}target='_blank' rel="noreferrer">Click</a></h5><br />
-          <h5 style={{color: "red"}}>(Not: paymant issues isn't work because hosting is free)</h5>
-        </div>
-        <div className="project-two">
-          
-        </div>
-        <div className="project-three">
-
+          <h5>
+            Created an Employee Management System using Java/Spring Boot
+            for the backend and React for the frontend. Features include
+              CRUD operations for employees and tasks, admin privileges,
+              and secure login with JWT authentication.
+          </h5>
+          <h5>Github:</h5>
+          <h5>Live demo:</h5>
         </div>
       </div>
     </div>
