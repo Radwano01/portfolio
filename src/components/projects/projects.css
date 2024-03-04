@@ -8,11 +8,11 @@
     text-align: center;
 }
 
-
-.card-of-projects{
+.project-one{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .card-of-projects h5{
