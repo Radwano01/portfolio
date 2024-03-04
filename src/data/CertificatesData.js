@@ -4,10 +4,10 @@ import certificateFive from "../assets/images/certificates/certificatefive.jpg"
 import certificateSix from "../assets/images/certificates/certificateSix.png"
 import certificateSeven from "../assets/images/certificates/certificateSeven.png"
 import certificateEight from "../assets/images/certificates/certificateeight.png"
-import certificateNine from "../assets/images/certificates/certificateten"
-import certificateTen from "../assets/images/certificates/certificatenine"
-import certificateeleven from "../assets/images/certificates/certificateeleven"
-import certificatetwelve from "../assets/images/certificates/certificatetwelve"
+import certificateNine from "../assets/images/certificates/certificateten.png"
+import certificateTen from "../assets/images/certificates/certificatenine.png"
+import certificateeleven from "../assets/images/certificates/certificateeleven.png"
+import certificatetwelve from "../assets/images/certificates/certificatetwelve.png"
 
 
 const CertData = [
