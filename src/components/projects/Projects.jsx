@@ -24,7 +24,7 @@ const Projects = () => {
       });
     });
   }, []);
-  
+
   return (
     <div className='projects-page' id='projects'>
       <div className="projects-title">
@@ -33,14 +33,12 @@ const Projects = () => {
       <div className="card-of-projects smooth-projects">
         <div className="project-one">
           <a href="https://clone-ddcf5.web.app" target='_blank' rel="noreferrer"><img src={amazonprojectimg} alt="projectimg" /></a>
-          <h5>
-            Created an Employee Management System using Java/Spring Boot
-            for the backend and React for the frontend. Features include
-              CRUD operations for employees and tasks, admin privileges,
-              and secure login with JWT authentication.
-          </h5>
-          <h5>Github:</h5>
-          <h5>Live demo:</h5>
+          <h5>Created an Employee Management System using Java/Spring Boot</h5>
+          <h5>for the backend and React for the frontend. Features include</h5>
+          <h5>CRUD operations for employees and tasks, admin privileges,</h5>
+          <h5>and secure login with JWT authentication.</h5>
+          <h5>Github:https://github.com/Radwano01/employee-management-system-backend</h5>
+          <h5>Live demo:https://employee-management-system-admin.netlify.app</h5>
         </div>
       </div>
     </div>
