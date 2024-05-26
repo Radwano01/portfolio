@@ -28,7 +28,7 @@ const Projects = () => {
   return (
     <div className='projects-page' id='projects'>
       <div className="projects-title">
-        <h1>Take A Look To My Projects</h1>
+        <h1>My Projects</h1>
       </div>
       <div className="card-of-projects smooth-projects">
         <div className="project-one">
