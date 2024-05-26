@@ -20,7 +20,7 @@ const Contact = () => {
     <div className='contact' id='contact'>
       <div className="email-social">
         <form onSubmit={handleSubmit}>
-          <h2>Send an Email to Work Together</h2>
+          <h2>Send an Email</h2>
           <div>
             <input type="text" name="subject" required placeholder='Subject'/>
           </div>
