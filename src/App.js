@@ -7,6 +7,7 @@ import Projects from './components/projects/Projects';
 import Contact from './components/contact/Contact';
 import { useState } from 'react';
 import Footer from './components/footer/Footer';
+import ProjectDetails from './components/projects/details/ProjectDetails';
 
 function App() {
   const [colorMode, setColorMode] = useState("dark")
@@ -26,6 +27,7 @@ function App() {
             <Contact/>
           </>
         }/>
+        <Route path='/project/details' element={<ProjectDetails/>}/>
       </Routes>
       <Footer/>
     </div>
