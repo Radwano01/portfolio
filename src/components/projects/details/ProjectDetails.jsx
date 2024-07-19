@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import databaseDesign from "../../../assets/images/database design.jpg";
+import databaseDesign from "../../../assets/images/database design.png";
 import figma1 from "../../../assets/images/figma1.png";
 import figma2 from "../../../assets/images/figma2.png";
 import "./projectDetails.css";
